@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<head>
+<title>CALCULADORA DE JUROS COMPOSTOS</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+</head>
+
+<body>
+
+<div class="main">
+<div class="form-group formulario">
+
+      <div class="centering">
+      <h2>Calculadora de juros compostos</h2>
+      </div>
+
+    <div class="gpHorizontal">
+    <div class="col-lg-12">
+        <label for="nome">Digite o seu nome:</label>
+        <input type="text" id='nome' class="form-control input" required placeholder="Ex: Pedro">
+    </div>
+    </div>
+
+    <div class="gpHorizontal">
+    <div class="col-lg-12">
+        <label for="p">Digite o valor aplidado mensalmente(R$):</label>
+        <input type="number" id='p' class="form-control input" required placeholder="Ex: 950">
+    </div>
+    </div>
+    
+        <br>
+
+    <div class="gpHorizontal">
+    <div class="col-lg-12">
+        <label for="i">Digite a taxa de juros(%):</label>
+        <input type="number" id='i' class="form-control input col-lg-12" required placeholder="Ex: 2">
+    </div>
+    </div>
+
+    <div class="gpHorizontal">
+    <div class="col-lg-12">     
+        <label for="n">Digite o número de parcelas:</label>
+        <input type="number" id='n' class="form-control input col-lg-12" required placeholder="Ex: 5">
+    </div>
+    </div>
+
+    <div class="gpHorizontal">
+        <div style="margin-top: 20px; margin-bottom: 20px;" class="centering">
+            <button type="submit" class="btn btn-outline-success" id='calcular'>Calcular</button>
+        </div>
+    </div>
+        <div class="gpHorizontal">
+            <div style="margin-bottom: 20px;" class="centering col-lg-12" id='resultado'></div>
+        </div>
+
+    </div>
+
+</div>
+<script src="script.js"></script>
+</body>
+
+</html>
